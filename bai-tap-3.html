@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<style>
+    .a {
+        border: 10px solid red;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        margin: 80px;
+    }
+    .b {
+        border: 10px dashed red;
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        padding-right: 20px;
+        margin: 80px;
+    }
+
+    .c {
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 20;
+        font-family: "Roboto", serif;
+
+    }
+    .d {
+        text-align: right;
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 16;
+        font-family: "Roboto", serif;
+    }
+    .e {
+        text-align: center;
+        text-transform: lowercase;
+        font-weight: 300;
+        font-size: 12;
+        font-family: "Roboto", serif;
+
+    }
+
+    .f {
+        text-align: justify;
+        font-style: italic;
+        font-family: "Roboto", serif;
+
+    }
+
+    .inline {
+        border: 5px solid blue;
+        color: red;
+        background: yellow;
+        display: inline;
+    }
+    .block {
+        border: 5px solid blue;
+        color: red;
+        background: yellow;
+        display: block;
+        width: 100px;
+        height: 50px;
+    }
+    .inline_block {
+        border: 5px solid blue;
+        color: red;
+        background: yellow;
+        display: inline-block;
+        width: 100px;
+        height: 50px;
+    }
+    .none {
+        border: 5px solid blue;
+        color: red;
+        background: yellow;
+        width: 100px;
+        height: 50px;
+        visibility: hidden;
+    }
+    .box {
+        background: gray    ;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        position: static;
+    }
+    .box2 {
+        background: orange;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+    .box3 {
+        background: red;
+        position: absolute;
+        left: 20px;
+        top: 2000px;
+    }
+    .head {
+        background: red;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 10000px;
+    }
+</style>
+<body>
+    <h1>Mạng xã hội</h1>
+    <p><i class="fa-brands fa-facebook"></i> Facebook</p>
+    <p><i class="fa-brands fa-youtube"></i> Youtube</p>
+    <p><i class="fa-brands fa-tiktok"></i> TikTok</p>
+    <div class="a">box 1</div>
+    <div class="b">box 2</div>
+    <div class="c">đoạn văn 1</div><br>
+    <div class="d">đoạn văn 2</div><br>
+    <div class="e">đoạn văn 3</div><br>
+    <div class="f">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nobis tempora esse! Quasi quis velit obcaecati? Quaerat voluptas ab modi maiores ipsum tempora ipsam impedit tempore natus omnis? Repellendus, omnis!</div>
+    <br>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="inline">Inline1</span> <span class="inline">Inline2</span> Odio quo eos adipisci rem! Molestias, dolorem consectetur culpa quod odit odio accusantium ratione, mollitia necessitatibus omnis, dignissimos velit hic. Aliquid, doloremque!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="block">Block1</span> <span class="block">Block2</span> Odio quo eos adipisci rem! Molestias, dolorem consectetur culpa quod odit odio accusantium ratione, mollitia necessitatibus omnis, dignissimos velit hic. Aliquid, doloremque!</p>
+    <p class="none">Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="none">Inline_Block1</span> <span class="none">Inline_Block2</span> Odio quo eos adipisci rem! Molestias, dolorem consectetur culpa quod odit odio accusantium ratione, mollitia necessitatibus omnis, dignissimos velit hic. Aliquid, doloremque!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <span class="inline_block">Inline_Block1</span> <span class="inline_block">Inline_Block2</span> Odio quo eos adipisci rem! Molestias, dolorem consectetur culpa quod odit odio accusantium ratione, mollitia necessitatibus omnis, dignissimos velit hic. Aliquid, doloremque!</p>
+<!-- Phần 9 -->
+    <div class="box">1</div>
+    <div class="box box2">2</div>
+    <div class="box box3">3</div>
+    <div class="head">Đầu Trang</div>
+
+
+
+</body>
+</html>
