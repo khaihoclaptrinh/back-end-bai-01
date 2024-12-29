@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="red">Câu 1 : Bài tập về thẻ video</h2>
+    <p class="blue"><b>Yêu Cầu</b>: Tạo thư mục đặt tên là videos, sau đó để video bất kỳ vào thư mục videos đó, tiếp theo, chèn video đó vào trang web bằng cách sử dụng thẻ video và thẻ source. Đường dẫn video là dạng relative(Đường dẫn tương đối). Đặt kích thước video có Width bằng 720 và height bằng 405(tương đương tỉ lệ 16:9).</p>
+    <video width="720" height="405" controls>
+    <source  src="../A LOVE SONG - KHAIKHOANHAI FT DINGJIE - MV Lyrics.mp4">
+    </video>
+    <audio controls>
+    <source src="../Download.mp3"></audio>
+    <h2 class="red">Câu 2: Bài tập về thẻ table</h2>
+    <table>
+        <thead>
+            <tr>
+                <td class="center" colspan="4"><b>Hóa đơn số 1234</b></td>
+                <td class="center" colspan="2"><b>Ngày 20/11/2022</b></td>
+            </tr>
+            <tr>
+                <td rowspan="4" colspan="3"><b>Thông tin khách hàng </b><br><br>
+                Họ Tên: Đặng Phương Nam <br><br>
+                Số điện thoại: 0123456789 <br><br>
+                Địa Chỉ: số 123, đường abc, thành phố Hà Nội.
+                </td>
+                <td rowspan="4" colspan="3"><b>Thông tin vận chuyển đơn hàng</b> <br><br>
+                    Họ Tên: Đặng Phương Nam <br><br>
+                    Số điện thoại: 0123456789 <br><br>
+                    Địa Chỉ: số 234, đường zxc, thành phố Hà Nội.
+                </td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Tên sản phẩm</b></td>
+                <td><b>Số lượng</b></td>
+                <td><b>Đơn giá</b></td>
+                <td colspan="2"><b>Thành tiền</b></td>
+            </tr>
+            <tr>
+                <td colspan="2">Giày nam cao cấp</td>
+                <td>2</td>
+                <td>800.000đ</td>
+                <td colspan="2">1.600.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="2">Giày nữ cao cấp</td>
+                <td>1</td>
+                <td>500.000đ</td>
+                <td colspan="2">1.000.000đ</td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>Tạm tính</b></td>
+                <td colspan="2">2.600.000đ</td>
+            </tr>
+        </thead>
+    </table>
+        <p><b>Yêu cầu 4</b>: tạo danh sách sau sử dụng thẻ ul, li</p>
+        <ul>
+            <li>Aeroplanes
+                <ul>
+                    <li>Air india</li>
+                    <li>Indigo</li>
+                    <li>Vistara</li>
+                    <li>GoAir</li>
+                    <li>SpiceJet</li>
+                </ul>
+            </li>
+            <li>Trains</li>
+            <li>Ships</li>
+        </ul>
+        <p><b>Yêu cầu 5</b>: tạo danh sách sau sử dụng thẻ ol,li</p>
+        <ol type="I">
+            <li>Background Skills
+                <ol type="A">
+                    <li>Unix Commands</li>
+                    <li>Vim Test Editors</li>
+                </ol>
+            </li>
+            <li>HTML
+                <ol type="A">
+                    <li>Minimal Page</li>
+                    <li>Headings</li>
+                    <li>Element</li>
+                    <li>Lists
+                        <ol type="i">
+                            <li>Unordered</li>
+                            <li>Ordered</li>
+                            <li>Definition</li>
+                            <li>Nested</li>
+                        </ol>
+                    </li>
+                    <li>Links
+                        <ol type="i">
+                            <li>Absolute</li>
+                            <li>Relative</li>
+                        </ol>
+                    </li>
+                    <li>Images</li>
+                </ol>
+            </li>
+            <li>CSS
+                <ol type="A">
+                    <li>Anatomy</li>
+                    <li>Basic Selectors
+                        <ol type="i">
+                            <li>Element</li>
+                            <li>Class</li>
+                            <li>ID</li>
+                            <li>Group</li>
+                        </ol>
+                    </li>
+                    <li>The DOM</li>
+                    <li>Advanced Selectors</li>
+                    <li>Box Model</li>
+                </ol>
+            </li>
+            <li>Programming
+                <ol type="A">
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ol>
+            </li>
+        </ol>
+        <form action="https://www.w3schools.com/action_page.php"
+        target="_blank"
+        method="post"
+        autocomplete="off"
+        >
+        <label for="fullname">Họ Tên:</label>
+        <br>
+        <input type="text" id="fullname" name="full_name">
+        <br>
+        <label for="date">Ngày Tháng Năm Sinh:</label>
+        <br>
+        <input type="date" id="date" name="date">
+        <p>Giới Tinh:</p>
+        <input type="radio" id="nam" name="gioitinh" value="Nam">
+        <label for="nam">Nam</label>
+        <br>
+        <input type="radio" id="nu" name="gioitinh" value="Nữ">
+        <label for="nu">Nữ</label>
+        <br>
+        <input type="radio" id="khac" name="gioitinh" value="Khác">
+        <label for="khac">Khác</label>
+        <br><br>
+        <label for="number">Số May Mắn Của Bạn:</label>
+        <br>
+        <input type="number" id="number" name="number">
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="password">Mật Khẩu:</label>
+        <br>
+        <input type="password" id="password" name="password">
+        <br>
+        <label for="time">Thời Gian</label>
+        <br>
+        <input type="time" id="time" name="time">
+        <br>
+        <label for="colors">Chọn Màu Sắc:</label>
+        <br>
+        <select name="color" id="colors">
+            <option value="red" selected>Đỏ</option>
+            <option value="yellow">Vàng</option>
+            <option value="green">Xanh Lá</option>
+            <option value="black">Đen</option>
+        </select>
+        <br>
+        <label for="note">Ghi Chú:</label>
+        <br>
+        <textarea name="note" id="note"></textarea>
+        <br>
+        <label for="datetime-local">Ngày Giờ Tháng Năm:</label>
+        <br>
+        <input type="datetime-local" id="datetime-local" name="datetime-local">
+        <br>
+        <label for="cccd">Úp Giấy Tờ Tùy Thân:</label>
+        <br>
+        <input type="file" id="cccd" name="cccd">
+        <p>Những ngôn ngữ lập trình bạn đã học:</p>
+        <input type="checkbox" id="ngonnguc" name="language" value="c">
+        <label for="ngonnguc">Ngôn Ngữ C</label>
+        <br>
+        <input type="checkbox" id="ngonngujava" name="language" value="java">
+        <label for="ngonngujava">Ngôn Ngữ Java</label>
+        <br>
+        <input type="checkbox" id="ngonnguphp" name="language" value="php">
+        <label for="ngonnguphp">Ngôn Ngữ Php</label>
+        <br><br>
+        <input type="submit" value="Gửi">
+    </form>
+</body>
+</html>
